@@ -1,0 +1,180 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Console", "Courier New", monospace;
+  /* font-family: "Verdana", sans-serif; */
+  line-height: 1.5;
+}
+
+body {
+  background: rgb(15 23 42);
+}
+
+h1,
+h2,
+a {
+  color: #e2e8f0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  color: rgb(94 234 212);
+}
+
+h4,
+p,
+li {
+  color: #94a3b8;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div-gap {
+  margin-top: 100px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+}
+
+.left-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.social-link {
+  margin-top: 50px;
+}
+
+.social-link a {
+  margin: 0 10px 0 10px;
+}
+
+.social-icon {
+  height: 3em;
+  width: 3em;
+}
+
+.download-resume {
+  color: rgb(94 234 212);
+  border: 1px solid rgb(94 234 212);
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 100px;
+}
+
+.right-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+  padding: 0 25px;
+}
+
+.technologies {
+  width: 100%;
+}
+
+.technologies ul {
+  padding-left: 30px;
+  /* list-style-type: none; */
+}
+
+.professional-experience {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.experience-card {
+  display: flex;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.experience-duration {
+  width: 30%;
+  font-size: 0.8em;
+}
+
+.experience-detail {
+  width: 70%;
+  margin-left: 5px;
+}
+
+.experience-detail a {
+  color: #94a3b8;
+}
+
+.experience-detail p {
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.experience-detail li {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.tech-capsule {
+  display: inline-block;
+  color: rgb(94 234 212);
+  border: 1px solid rgb(94 234 212);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.contact-details {
+  width: 100%;
+}
+
+/* Styles for screens smaller than tablets (e.g., mobile phones) */
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left-col {
+    position: static;
+    width: 100vw;
+  }
+
+  .right-col {
+    width: 100vw;
+  }
+
+  .experience-card {
+    flex-direction: column;
+  }
+
+  .experience-duration {
+    width: 100vw;
+  }
+
+  .experience-detail {
+    width: 100vw;
+  }
+}
