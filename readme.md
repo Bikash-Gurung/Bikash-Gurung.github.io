@@ -1,1 +1,1 @@
-[bikashgrg.com.np](http://bikashgrg.com.np)
+[bikashgrg.com.np](https://bikashgrg.com.np)
